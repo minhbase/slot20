@@ -10,7 +10,7 @@ errorMsg=classes("error"),
 successIcon=classes("success-icon"),
 failureIcon=classes("failure-icon");
 
-form.addEventListener("submit",(e)=>{
+form.addEventListener("submit",(e)=>{ 
     e.preventDefault();
 
     engine(username, 0, "Username can not be blank");
@@ -20,7 +20,7 @@ form.addEventListener("submit",(e)=>{
 
 let engine=(id,serial,message) => {
     if(id.value.trim()==""){
-        errorMsg[serial].innerHTML=message;
+        errorMsg[serial].innerHTML=message; 
         id.style.border= "2px solid red";
 
         //icons

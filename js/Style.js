@@ -9,7 +9,7 @@
 body{
     font-family: sans-serif;
 }
-.container{
+.container{ 
     display: flex;
     flex-direction: row;
 }
@@ -19,7 +19,7 @@ body{
 .container{
     display:flex;
     flex-direction: column;
-    justifying-content: space-around;
+    justifying-content: space-around; 
     background-color: #f2796e;
     width:55%;
     min-height:100vh;
